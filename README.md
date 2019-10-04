@@ -26,5 +26,5 @@ python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 To install your newly uploaded package `nbackend-pluginfactory`, you can use pip:
 ```
-python3 -m pip install --index-url https://test.pypi.org/simple/ nbackend-pluginfactory
+python3 -m pip install --index-url https://upload.pypi.org/simple/ nbackend-pluginfactory
 ```
